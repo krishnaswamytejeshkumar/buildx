@@ -105,6 +105,8 @@ message Secret {
   string ID = 1;
   string FilePath = 2;
   string Env = 3;
+  string Paths = 2;
+  string  = 3;repeated paths
 }
 
 message PrintFunc {
